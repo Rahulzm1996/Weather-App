@@ -25,6 +25,7 @@ export const WeatherIcons = {
   '11d': '/icons/storm.svg',
   '11n': '/icons/storm.svg',
   '50d': '/icons/sunny.svg',
+  '50n': '/icons/night.svg',
 };
 
 const WeatherCondition = styled.div`
