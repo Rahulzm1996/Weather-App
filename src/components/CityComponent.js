@@ -45,18 +45,17 @@ margin:20px auto;
 }
 
 @media screen and (max-width:400px){
-  width:80vw;
   margin:15px auto;
   justify-content:space-between;
 
   & input{
     flex-grow:1;
-    width:60%;
+    width:70%;
   }
 
   & button{
     align-self:flex-end;
-    width:40%;
+    width:30%;
   }
 
 }
