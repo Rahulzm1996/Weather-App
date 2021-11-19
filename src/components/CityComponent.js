@@ -44,7 +44,7 @@ margin:20px auto;
   text-transform:capitalize;
 }
 
-@media screen and (max-width:300px){
+@media screen and (max-width:400px){
   width:80vw;
   margin:15px auto;
   justify-content:space-between;
