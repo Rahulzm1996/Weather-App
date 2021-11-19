@@ -43,6 +43,24 @@ margin:20px auto;
   cursor:pointer;
   text-transform:capitalize;
 }
+
+@media screen and (max-width:300px){
+  width:80vw;
+  margin:15px auto;
+  justify-content:space-between;
+
+  & input{
+    flex-grow:1;
+    width:60%;
+  }
+
+  & button{
+    align-self:flex-end;
+    width:40%;
+  }
+
+}
+
 `;
 
 const CityComponent = ({ city, setCity, fetchWeather }) => {
